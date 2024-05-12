@@ -1,7 +1,7 @@
 import pandas as pd
 from sklearn.linear_model import LinearRegression
 #data
-df = pd.read_csv('C:/Users/AM/Documents/IA/data iris/Iris.csv')
+df = pd.read_csv('data iris/Iris.csv')
 df.head()
 
 x = df[["SepalLengthCm"]]
